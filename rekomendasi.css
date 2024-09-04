@@ -1,0 +1,117 @@
+body{
+    width: 100%;
+    margin: 0;
+}
+nav{
+    background-color: #32a8ac;
+    justify-content: space-around;
+    display: flex; 
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    
+  
+}
+nav ul{
+    padding: 0px;
+    gap: 2rem;
+    display: flex;
+    list-style: none;
+    align-items: center;
+  
+    
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    padding: 8px 0px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: 1px solid rgba(220, 240, 109, 0);
+}
+nav ul li a:hover{
+    color: rgb(220, 240, 109);
+    border-bottom: 1px solid rgb(220, 240, 109);
+
+}
+.logo{
+    text-align: center;
+    background-color: #3dc9ce;
+    width: 100%;
+  
+        }
+        .container{
+            position: absolute;
+            left: 50%;
+            top: 77%;
+            transform: translate(-50%,-50%);
+            padding: 20px 25px;
+            width: 1000px   ;
+            background-color: skyblue;
+           box-shadow: 0 0 70px black;
+            border-radius: 20px;
+            
+            
+            
+        }
+ .thumbnail img{
+        width: 225px;
+       }
+       
+        .container{
+            width: 1400px;
+            margin: 0 auto;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .content{
+            min-height: 500px;
+            overflow: auto;
+            text-align: left;
+            background-color: #f7f7f7;
+        }
+        .content h1{
+           text-align: center;
+            font-family: sans-serif;
+            font-style: inherit;
+            color: black;
+        }
+        .isi{
+            font-family: sans-serif;
+        }
+        .isi h1{
+            color: white;
+        }
+        .isi h1:hover{
+            color: blue;
+        }
+        .thumbnail{
+            background-color: #1f8488;
+            text-align: center;
+            padding: 10px;
+            margin: 40px 50px;
+            width: 550px;
+            float: left;
+            border-radius: 10px;
+            box-shadow: 7px 7px 5px #050505bd;
+        }
+
+        .polaroid {
+            width: 250px;
+            height: 350px;
+            box-shadow: 0 0px 10px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            float: left;
+            background-color: #32a8ac;
+            
+        }
+        p{
+            font-size: 25px;
+            color: black;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        h3{
+            color: rgb(248, 244, 244);
+        }

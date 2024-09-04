@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aktivitas</title>
+    <style>
+        body {
+            width: 100%;
+            margin: 0;
+        }
+
+        .header {
+
+            min-height: 50px;
+            text-align: center;
+        }
+
+        .menu ul {
+            padding: 0%;
+
+        }
+
+        .menu ul li {
+            display: inline-block;
+            position: relative;
+        }
+
+        .menu ul li a {
+            text-decoration: none;
+            font-family: Arial, sans-serif;
+
+        }
+
+        .container {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+        }
+
+        .container h4 u {
+            color: #092525;
+        }
+
+        .content {
+            min-height: 400px;
+            overflow: auto;
+
+
+        }
+
+
+        h1 {
+            color: #114749;
+            font-family: sans-serif;
+        }
+
+
+        p {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+
+        .body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+
+        .logo {
+            text-align: center;
+            background-color: #3dc9ce;
+            width: 100%;
+
+        }
+
+        nav {
+            background-color: #32a8ac;
+            justify-content: space-around;
+            display: flex;
+            position: sticky;
+            z-index: 1000;
+            top: 0;
+
+
+        }
+
+        nav ul {
+            padding: 0px;
+            gap: 2rem;
+            display: flex;
+            list-style: none;
+            align-items: center;
+
+
+        }
+
+        nav ul li {
+            display: inline-block;
+        }
+
+        nav ul li a {
+            padding: 8px 0px;
+            text-decoration: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            transition: all;
+            transition-duration: 300ms;
+            border-bottom: 1px solid rgba(220, 240, 109, 0);
+        }
+
+        nav ul li a:hover {
+            color: rgb(220, 240, 109);
+            border-bottom: 1px solid rgb(220, 240, 109);
+
+        }
+
+        .pemisah {
+            background-color: #ddd;
+
+            padding: 20px;
+            width: 1000px;
+            margin-top: 20px;
+            margin: 20px 70px;
+            float: none;
+            border-radius: 10px;
+        }
+
+        .pemisah img {
+            width: 100%;
+        }
+
+        .thumbnail {
+            background-color: #1f8488;
+            text-align: center;
+            padding: 10px;
+            margin: 30px;
+            margin-left: 83px;
+            width: 300px;
+            float: left;
+            color: rgb(227, 227, 240);
+            overflow: hidden;
+            border-radius: 7px;
+            height: 385px;
+            transform: 0.2s ease;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.637);
+            transition: all 300ms ease-in-out;
+        }
+
+        .thumbnail:hover {
+            transform: scale(1.1);
+        }
+
+        .thumbnail img {
+            width: 80%;
+            border-radius: 5px;
+
+        }
+
+        .thumbnail a {
+            text-decoration: none;
+            color: blue;
+        }
+        .thumbnail a:hover {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo">
+        <img src="logo/IMG-20240821-WA0044-removebg-preview (1).png" width="100px" alt="">
+    </div>
+    <nav>
+        <div class="header">
+            <ul>
+                <li><a href="Beranda.html">Beranda</a></li>
+                <li><a href="Layanan.html">Layanan</a></li>
+                <li><a href="Aktivitas.html">Aktivitas</a></li>
+                <li><a href="Rekomendasi.html">Rekomendasi</a></li>
+                <li><a href="Profil.html">Profil</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="content">
+            <h2 style="margin-left: 10px; text-align: center;" >Aktivitas
+                <hr>
+            </h2><br>
+            <div class="thumbnail">
+                <img src="https://static.republika.co.id/uploads/images/xlarge/074129100-1674039008-1280-856.jpg"
+                    alt="png">
+                <h2><a href="https://www.republika.id/posts/36574/wajah-baru-perpustakaan-kota-bogor" target="_blank"
+                        class="tbl-biru">Wajah baru perpustakaan kota bogor</a></h2>
+                <p> &#x1F4C6; : 2023-01-18</p> <br>
+
+            </div>
+            <div class="thumbnail">
+                <img src="https://dipusipda.tasikmalayakota.go.id/frontend/web/upload/_berita.jpeg" alt="">
+                <h2><a href="https://dipusipda.tasikmalayakota.go.id/site/beritadetail?id=102265" target="_blank"
+                        class="tbl-biru">Perpusnas Gelar Upacara Peringatan HUT ke-79 ...</a>
+                </h2>
+                <p> &#x1F4C6; : 2024-08-17</p> <br>
+
+            </div>
+
+            <div class="thumbnail">
+                <img src="https://backend.perpusnas.go.id/uploads/berita/1723457932_3fcf6ab3a3bb0c78fee2.jpeg" alt="">
+                <h2><a href="https://perpusnas.go.id/berita/berkat-dak-kabupaten-siak-miliki-gedung-layanan-perpustakaan-umum-baru"
+                        target="_blank" class="tbl-biru">Berkat DAK, Kabupaten Siak Miliki Gedung layanan ...</a>
+                </h2>
+                <p> &#x1F4C6; : 2024-08-12</p> <br>
+
+            </div>
+
+            <div class="thumbnail">
+                <img src="https://asset.kompas.com/crops/QZit_fh5C1dJfA1WvqTjw5me-k0=/0x0:1350x900/750x500/data/photo/2024/06/06/66616d1bce9ac.jpg"
+                    alt="perpus">
+                <h2><a href="https://travel.kompas.com/read/2024/06/06/190700227/4-kegiatan-menarik-di-alun-alun-bandung-baca-buku-di-perpustakaan"
+                        target="_blank" class="tbl-biru"">4 Kegiatan Menarik di Alun-alun Bandung ...</a>
+                </h2>
+                <p> &#x1F4C6; : 2024-06-06</p> <br>
+             
+            </div>
+            <div class=" thumbnail">
+                        <img src="https://dipusipda.tasikmalayakota.go.id/frontend/web/upload/_berita.jpg" alt="perpus">
+                        <h2><a href="https://dipusipda.tasikmalayakota.go.id/site/beritadetail?id=102264"
+                                target="_blank" class="tbl-biru"">Surbaya Jadi pusat Pertukaran ilmu Pengetahuan ...</a>
+                </h2>
+                <p> &#x1F4C6; : 2024-06-30</p> <br>
+               
+            </div>
+
+            <div class=" thumbnail">
+                                <img src="https://dipusipda.tasikmalayakota.go.id/frontend/web/upload/102263_gambar.jpeg"
+                                    alt="perpus">
+                                <h2><a href="https://dipusipda.tasikmalayakota.go.id/site/beritadetail?id=102263"
+                                        target="_blank" class="tbl-biru"">Peringatan hari Perpustakawan: Peran Penting Pustakawan ...</a>
+                </h2>
+                <p> &#x1F4C6; : 2024-07-09</p> <br>
+                
+            </div>
+
+            <div class=" thumbnail">
+                                        <img src="https://dipusipda.tasikmalayakota.go.id/frontend/web/upload/102256_gambar.jpeg"
+                                            alt="perpus">
+                                        <h2><a href="https://dipusipda.tasikmalayakota.go.id/site/beritadetail?id=102256"
+                                                target="_blank" class="tbl-biru"">Perpusnas Akan Salurkan Koleksi Buku Ke 10.000 Perpustakaan ...</a>
+                </h2>
+                <p> &#x1F4C6; : 2024-01-22</p> <br>
+                
+            </div>
+
+            <div class=" thumbnail">
+                                                <img src="https://dipusipda.tasikmalayakota.go.id/frontend/web/upload/102251_gambar.jpeg"
+                                                    alt="perpus">
+                                                <h2><a href="https://dipusipda.tasikmalayakota.go.id/site/beritadetail?id=102251"
+                                                        target="_blank" class="tbl-biru"">Kepala Perpusnas Ajak Masyarakat Manfaatkan Perpustakaan ...</a>
+                </h2>
+                <p> &#x1F4C6; : 2023-08-28</p> <br>
+                
+            </div>
+            <div class="thumbnail">
+                <img src="https://dipusipda.tasikmalayakota.go.id/frontend/web/upload/102261_gambar.jpeg" alt="perpus">
+                <h2><a href="https://dipusipda.tasikmalayakota.go.id/site/beritadetail?id=102261" target="_blank" class="tbl-biru">Perkuat Penyelenggaraan Kearsipan, Anri Gelar Rapat Koordinasi ...</a>
+                </h2>
+                <p> &#x1F4C6; : 2024-04-07</p> <br>
+                
+            </div>
+        
+        </div>
+        </div>
+
+</body>
+</html>
