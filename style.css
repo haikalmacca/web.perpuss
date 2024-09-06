@@ -90,8 +90,8 @@ nav ul li a:hover{
             background-color: #f7f6f6;
             padding: 30px 30px;
             width: 800px;
-            margin-top: 20px;
-            margin: 10px 200px;            
+            margin-top: auto;
+            margin:auto;            
             border-radius: 10px;
         }
         .pemisah h1{
