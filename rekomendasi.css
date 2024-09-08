@@ -142,3 +142,10 @@ nav ul li a:hover{
         h3{
             color: rgb(248, 244, 244);
         }
+.footer{
+    background-color: rgb(77, 160, 185);
+    min-width: 50px;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
