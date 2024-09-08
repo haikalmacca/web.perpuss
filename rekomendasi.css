@@ -44,6 +44,33 @@ nav ul li a:hover{
     width: 100%;
   
         }
+        .jumbotron{
+    width: 100%;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    text-align: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQjs5Sub_9RLN83LbfBh7bKz0hjjAfLQWfMg&s);
+}
+
+.pemisah {
+            background-color: #f7f6f6;
+            padding: 40px 40px;
+            width: 800px;
+            margin-top: auto;
+            margin:auto;            
+            border-radius: 10px;
+            box-shadow: 0 0 40px black;
+        }
+        .pemisah h1{
+            color: #0d3031;
+        }
+        .pemisah p{
+            color: #1c6769;
+            font-size: medium;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
         .container{
             position: absolute;
             left: 50%;

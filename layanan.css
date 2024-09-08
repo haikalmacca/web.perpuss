@@ -47,12 +47,11 @@ nav ul li a:hover{
 
 
 .footer{
-    background-color: #384c52;
+    background-color: rgb(77, 160, 185);
     min-width: 50px;
     text-align: center;
     padding: 20px;
-
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 .container{
     position: relative;
