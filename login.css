@@ -1,149 +1,143 @@
-body{
-    width: 100%;
-    margin: 0;
+body {
+  width: 100%;
+  margin: 0;
 }
-nav{
-    background-color: #32a8ac;
-    justify-content: space-around;
-    display: flex; 
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    z-index: 1000;
-  
+nav {
+  background-color: #32a8ac;
+  justify-content: space-around;
+  display: flex;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 1000;
 }
-nav ul{
-    padding: 0px;
-    gap: 2rem;
-    display: flex;
-    list-style: none;
-    align-items: center;
-  
-    
+nav ul {
+  padding: 0px;
+  gap: 2rem;
+  display: flex;
+  list-style: none;
+  align-items: center;
 }
-nav ul li{
-    display: inline-block;
+nav ul li {
+  display: inline-block;
 }
-nav ul li a{
-    padding: 8px 0px;
-    text-decoration: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    transition: all;
-    transition-duration: 300ms;
-    border-bottom: 1px solid rgba(220, 240, 109, 0);
+nav ul li a {
+  padding: 8px 0px;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  transition: all;
+  transition-duration: 300ms;
+  border-bottom: 1px solid rgba(220, 240, 109, 0);
 }
-nav ul li a:hover{
-    color: rgb(220, 240, 109);
-    border-bottom: 1px solid rgb(220, 240, 109);
-
+nav ul li a:hover {
+  color: rgb(220, 240, 109);
+  border-bottom: 1px solid rgb(220, 240, 109);
 }
-.logo{
-    text-align: center;
-    background-color: #3dc9ce;
-    width: 100%;
-  
+.logo {
+  text-align: center;
+  background-color: #3dc9ce;
+  width: 100%;
 }
-.content{
-    padding: 40px 40px;
-    background-image: url(https://www.zarla.com/images/zarla-logo-buku.jpeg?crop=16:9,smart&width=1200&dpr=2);
+.content {
+  padding: 40px 40px;
+  background-image: url(https://www.zarla.com/images/zarla-logo-buku.jpeg?crop=16:9,smart&width=1200&dpr=2);
 }
-*{
-    font-family: Arial, Helvetica, sans-serif;
-   
+* {
+  font-family: Arial, Helvetica, sans-serif;
 }
-input::placeholder{
-    color: white;
+input::placeholder {
+  color: white;
 }
-.wrapper{
-    position: relative;
-    width: 400px;
-    height: 500px;
-    background-color: rgba(28, 29, 29, 0.39);
-    box-shadow: 0 0 50px rgb(83, 120, 122);
-    border-radius: 20px;
-    padding: 40px;
-    margin: auto;
-    border: 3px solid white;
-    backdrop-filter: blur(0.4rem);
-
+.wrapper {
+  position: relative;
+  width: 400px;
+  height: 500px;
+  background-color: rgba(28, 29, 29, 0.39);
+  box-shadow: 0 0 50px rgb(83, 120, 122);
+  border-radius: 20px;
+  padding: 40px;
+  margin: auto;
+  border: 3px solid white;
+  backdrop-filter: blur(0.4rem);
 }
-.form-wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
-h2{
-    font-size: 30px;
-    color:white;
-    text-align: center;
+h2 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
 }
-.input-group{
-    position: relative;
-    margin: 30px 0;
-    border-bottom: 2px solid #fff;
+.input-group {
+  position: relative;
+  margin: 30px 0;
+  border-bottom: 2px solid #fff;
 }
-.input-group label{
-    position: absolute;
-    top: 50%;
-    left: 5px;
-    transform: translateY(-50%);
-    font-size: 16px;
-    pointer-events: none;
-    transition: .5s;
+.input-group label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.5s;
 }
-.input-group input{
-    width: 320px;
-    height: 40px;
-    font-size: 16px;
-    color: #fff;
-    padding: 0 5px;
-    background: transparent;
-    border: none;
-    outline: none;
+.input-group input {
+  width: 320px;
+  height: 40px;
+  font-size: 16px;
+  color: #fff;
+  padding: 0 5px;
+  background: transparent;
+  border: none;
+  outline: none;
 }
-.input-group input:focus~label,
-.input-group input:valid~label{
-    top: -5px;
+.input-group input:focus ~ label,
+.input-group input:valid ~ label {
+  top: -5px;
 }
 
-.remember{
-    margin: -5px 0 15px 5px;
+.remember {
+  margin: -5px 0 15px 5px;
 }
-.remember label{
-    color: white;
-    font-size: 14px;
+.remember label {
+  color: white;
+  font-size: 14px;
 }
-.remember label input{
-    accent-color: #0ef;
+.remember label input {
+  accent-color: #0ef;
 }
-button{
-    position: relative;
-    width: 100%;
-    height: 40px;
-    background: rgb(252, 254, 254);
-    box-shadow: 0 0 7px rgb(149, 165, 167);
-    font-size: 16px;
-    color: black;
-    font-weight: 500;
-    cursor: pointer;
-    border-radius: 30px;
-    border: none;
-    outline: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #235f61;
-    transition: all 200ms;
+button {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  background: rgb(252, 254, 254);
+  box-shadow: 0 0 7px rgb(149, 165, 167);
+  font-size: 16px;
+  color: black;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #235f61;
+  transition: all 200ms;
 }
-button:hover{
-    background-color: #235f61;
-    color: white;
+button:hover {
+  background-color: #235f61;
+  color: white;
 }
-.footer{
-    background-color: rgb(77, 160, 185);
-    min-width: 50px;
-    text-align: center;
-    padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+.footer {
+  background-color: rgb(77, 160, 185);
+  min-width: 50px;
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }

@@ -1,264 +1,388 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profil</title>
     <style>
-        body{
-            width: 100%;
-            margin: 0;
-        }
-        .header{
-    
-    min-height: 50px;
-    text-align: center;
-}
-        .menu ul{
-            padding: 0%;
-            
-        }
-        .menu ul li{
-            display: inline-block;
-            position: relative;
-        }
-        .menu ul li a{
-            text-decoration: none;
-            font-family: Arial, sans-serif;
-            
-        }
-        .container{
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      body {
+        width: 100%;
+        margin: 0;
+      }
+      .header {
+        min-height: 50px;
+        text-align: center;
+      }
+      .menu ul {
+        padding: 0%;
+      }
+      .menu ul li {
+        display: inline-block;
+        position: relative;
+      }
+      .menu ul li a {
+        text-decoration: none;
+        font-family: Arial, sans-serif;
+      }
+      .container {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      .container h4 u {
+        color: #092525;
+      }
+      .content {
+        background-color: #317375;
+        border: none;
+        font-family: Arial, sans-serif;
+      }
 
-            
-        }
-        .container h4 u{
-            color: #092525;
-        }
-        .content{
-            background-color: #317375;
-            border: none;
-            font-family: Arial, sans-serif;
-        
-        }
-            
-            
-        h1{
-            color: #114749;
-            font-family: sans-serif;
-        }
-    
-    
-        p{
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      h1 {
+        color: #114749;
+        font-family: sans-serif;
+      }
 
-        }
-        .body{
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        
-        }
-        .logo{
-    text-align: center;
-    background-color: #3dc9ce;
-    width: 100%;
-  
-        }
-       
-nav{
-    background-color: #32a8ac;
-    justify-content: space-around;
-    display: flex; 
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    
-  
-}
-nav ul{
-    padding: 0px;
-    gap: 2rem;
-    display: flex;
-    list-style: none;
-    align-items: center;
-  
-    
-}
-nav ul li{
-    display: inline-block;
-}
-nav ul li a{
-    padding: 8px 0px;
-    text-decoration: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    transition: all;
-    transition-duration: 300ms;
-    border-bottom: 1px solid rgba(220, 240, 109, 0);
-}
-nav ul li a:hover{
-    color: rgb(220, 240, 109);
-    border-bottom: 1px solid rgb(220, 240, 109);
+      p {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .logo {
+        text-align: center;
+        background-color: #3dc9ce;
+        width: 100%;
+      }
 
-}
-.pemisah {
-            background-color: #379b9e;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.507);
-            padding: 20px 48px;
-            width: 1100px;
-            margin-top: 70px;
-            margin-left: 70px;
-            
-            border-radius: 10px;
-        }
-        .pemisah  img{ 
-            width: 100%;
-        }
-.pemisah h1{
-    color: #203e3f;
-}
-       .footer{
-    background-color: rgb(77, 160, 185);
-    min-width: 50px;
-    text-align: center;
-    margin-top: 78px;
-    padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-} 
-            
+      nav {
+        background-color: #32a8ac;
+        justify-content: space-around;
+        display: flex;
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+      }
+      nav ul {
+        padding: 0px;
+        gap: 2rem;
+        display: flex;
+        list-style: none;
+        align-items: center;
+      }
+      nav ul li {
+        display: inline-block;
+      }
+      nav ul li a {
+        padding: 8px 0px;
+        text-decoration: none;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        transition: all;
+        transition-duration: 300ms;
+        border-bottom: 1px solid rgba(220, 240, 109, 0);
+      }
+      nav ul li a:hover {
+        color: rgb(220, 240, 109);
+        border-bottom: 1px solid rgb(220, 240, 109);
+      }
+      .pemisah {
+        background-color: #379b9e;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.507);
+        padding: 20px 48px;
+        width: 1100px;
+        margin-top: 70px;
+        margin-left: 70px;
+
+        border-radius: 10px;
+      }
+      .pemisah img {
+        width: 100%;
+      }
+      .pemisah h1 {
+        color: #203e3f;
+      }
+      .footer {
+        background-color: rgb(77, 160, 185);
+        min-width: 50px;
+        text-align: center;
+        margin-top: 78px;
+        padding: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="logo">
-        <img src="logo/IMG-20240821-WA0044-removebg-preview (1).png" width="100px" alt="">
+      <img
+        src="logo/IMG-20240821-WA0044-removebg-preview (1).png"
+        width="100px"
+        alt=""
+      />
     </div>
     <nav>
-        <div class="header">
-            <ul>
-                <li><a href="index.html">Beranda</a></li>
-                <li><a href="Layanan.html">Layanan</a></li>
-                <li><a href="Aktivitas.html">Aktivitas</a></li>
-                <li><a href="Rekomendasi.html">Rekomendasi</a></li>
-                <li><a href="Profil.html">Profil</a></li>
-                <li><a href="login.html">Login</a></li>
-            </ul>
-        
-        </div>
-        </nav>
-        <div class="pemisah">
-    <h1>Jajaran Unit kerja</h1>
-    <br><br>
-    <hr>
-    <br>
-    <p>Berdasarkan Undang-undang Republik Indonesia No 43 Tahun 2007 Tentang Perpustakaan, Dan Peraturan Perpustakaan Nasional RI No 4 Tahun 2020 Tentang Organisasi Dan Tata Kerja Perpustakaan Nasioal Berlaku <u>Mulai 14 September 2020</u></p>
+      <div class="header">
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="Layanan.html">Layanan</a></li>
+          <li><a href="Aktivitas.html">Aktivitas</a></li>
+          <li><a href="Rekomendasi.html">Rekomendasi</a></li>
+          <li><a href="Profil.html">Profil</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="pemisah">
+      <h1>Jajaran Unit kerja</h1>
+      <br /><br />
+      <hr />
+      <br />
+      <p>
+        Berdasarkan Undang-undang Republik Indonesia No 43 Tahun 2007 Tentang
+        Perpustakaan, Dan Peraturan Perpustakaan Nasional RI No 4 Tahun 2020
+        Tentang Organisasi Dan Tata Kerja Perpustakaan Nasioal Berlaku
+        <u>Mulai 14 September 2020</u>
+      </p>
 
-    <div class="container"><h4><u>SUSUNAN HIRAKI UNIT KERJA</u></h4></div>
+      <div class="container">
+        <h4><u>SUSUNAN HIRAKI UNIT KERJA</u></h4>
+      </div>
 
-
-    <P>Berdasarkan Peraturan Presiden Republik Indonesia Nomor 13 Tahun 2013 Tentang Perubahan Ketujuh Atas Keputusan Presiden Nomor 103 Tahun 2001 Tentang Kedudukan, Tugas, Fungsi, Kewenangan, Susunan Organisasi, dan Tata Kerja Lembaga Pemerintah Non Kementerian, Undang-Undang Republik Indonesia Nomor 43 Tahun 2007 Tentang Perpustakaan, dan Peraturan Kepala Perpustakaan Nasional RI Nomor 4 Tahun 2020 Tentang Organisasi dan Tata Kerja Perpustakan Nasional Berlaku Mulai 14 September 2020</P>
-        <div class="container">
-            <h4><u>SUSUNAN HIRAKI UNIT KERJA</u></h4>
-         <br><br><br>
-        </div>
-        <a href=""><button class="content"><b>KEPALA PERPUSTAKAAN NASIONAL RI</b></button></a>
-        <br><br><br><br><br>
-        <a href=""><button class="content"><b>SEKERTARIAT UTAMA</b></button></a>
-        <div class="body">
-            <br><br>
-            <ul>
-                <a href=""><button class="content"><b>Biro perencana dan keuangan</b></button></a>
-                <br>
-                <ul>kordinator dan kelompok jabatan fungsional</ul>
-            </ul>
+      <p>
+        Berdasarkan Peraturan Presiden Republik Indonesia Nomor 13 Tahun 2013
+        Tentang Perubahan Ketujuh Atas Keputusan Presiden Nomor 103 Tahun 2001
+        Tentang Kedudukan, Tugas, Fungsi, Kewenangan, Susunan Organisasi, dan
+        Tata Kerja Lembaga Pemerintah Non Kementerian, Undang-Undang Republik
+        Indonesia Nomor 43 Tahun 2007 Tentang Perpustakaan, dan Peraturan Kepala
+        Perpustakaan Nasional RI Nomor 4 Tahun 2020 Tentang Organisasi dan Tata
+        Kerja Perpustakan Nasional Berlaku Mulai 14 September 2020
+      </p>
+      <div class="container">
+        <h4><u>SUSUNAN HIRAKI UNIT KERJA</u></h4>
+        <br /><br /><br />
+      </div>
+      <a href=""
+        ><button class="content">
+          <b>KEPALA PERPUSTAKAAN NASIONAL RI</b>
+        </button></a
+      >
+      <br /><br /><br /><br /><br />
+      <a href=""
+        ><button class="content"><b>SEKERTARIAT UTAMA</b></button></a
+      >
+      <div class="body">
+        <br /><br />
+        <ul>
+          <a href=""
+            ><button class="content">
+              <b>Biro perencana dan keuangan</b>
+            </button></a
+          >
+          <br />
+          <ul>
+            kordinator dan kelompok jabatan fungsional
+          </ul>
+        </ul>
         <div>
+          <ul>
+            <a href=""
+              ><button class="content">
+                <b>Biro hukum,organisasi,kerja sama,dan humas</b>
+              </button></a
+            >
+            <br />
             <ul>
-                <a href=""><button class="content"><b>Biro hukum,organisasi,kerja sama,dan humas</b></button></a>
-                <br>
-                <ul>kordinator dan kelompok jabatan fungsional</ul>
+              kordinator dan kelompok jabatan fungsional
             </ul>
+          </ul>
         </div>
         <div class="body">
+          <ul>
+            <a href=""
+              ><button class="content"><b>Biro SDM Umum</b></button></a
+            >
+            <br />
             <ul>
-                <a href=""><button class="content"><b>Biro SDM Umum</b></button></a>
-                <br>
-                <ul>kordinator dan kelompok jabatan fungsional</ul>
-                <ul>bagian umum</ul>
-                <ul>Sub bagian TU Pinpinan,Kearsipan Dan protokol</ul>
-                <ul>Sub bagian rumah tangga dan layanan penggandaan</ul>
-                <ul>Sub bagian TU Deputi 1</ul>
-                <ul>Sub bagian TU Deputi 2</ul>
+              kordinator dan kelompok jabatan fungsional
             </ul>
+            <ul>
+              bagian umum
+            </ul>
+            <ul>
+              Sub bagian TU Pinpinan,Kearsipan Dan protokol
+            </ul>
+            <ul>
+              Sub bagian rumah tangga dan layanan penggandaan
+            </ul>
+            <ul>
+              Sub bagian TU Deputi 1
+            </ul>
+            <ul>
+              Sub bagian TU Deputi 2
+            </ul>
+          </ul>
         </div>
-        <br><br><br>
-        <a href=""><button class="content"><b>DEPUTI BIDANG PENGEMBANGAN BAHAN PUSTAKA DAN JASA IMFORMASI</b></button></a>
-        <br>
-        <ul>Sub Bagian Tu DePuti 1</ul>
-            <ul>
-              <a href=""><button class="content"><b>Direktorat Deposit Pengembangan Koleksi Perpustakaan</b></button></a>
-            </ul>
-            <ul>Kordinator Dan Kelompok Jabatan Fungsional</ul> 
-            <ul>
-                 <a href=""><button class="content"><b>Pusat Biliografi Dan Pengolahan Bahan Perpustakaan</b></button></a>
-            </ul>
-                 <ul>Kordinator Dan Kelompok Jabatan Fungsional</ul>
-            <ul>
-                <a href=""><button class="content"><b>Pusat Preferensi Dan Ahli Media Bahan Perpustakaan</b></button></a>
-            </ul> 
-                <ul>Kordinator Dan Kelompok Jabatan Fungsional</ul> 
-            <ul>
-                <a href=""><button class="content"><b>Pusat Jasa Ionfirmasi Perpustakaan Dan Pengelolaan Naskah Nusantara </b></button></a>
-            </ul>
-            <ul>Kordinator Dan Kelompok Jabatan Fungsional</ul>
-            <br><br><br>
-        <a href=""><button class="content"><b>DEPUDI BIDANG PENGEMBANGAN SUMBER DAYA PERPUSTAKAAN </b></button></a>
-        <br>
-        <ul>Sub Bagian Tu DePuti 1</ul>
-            <ul>
-              <a href=""><button class="content"><b>Direktorat Standardisasi dan Akredisasi</b></button></a>
-            </ul>
-            <ul>Kordinator Dan Kelompok Jabatan Fungsional</ul> 
-            <ul>
-                 <a href=""><button class="content"><b>Pusat Pengembangan Perpustakaan Umum Dan Khusus</b></button></a>
-            </ul>
-                 <ul>Kordinator Dan Kelompok Jabatan Fungsional</ul>
-            <ul>
-                <a href=""><button class="content"><b>Pusat Pengembangan Perpustakaan Sekolah/Madrasah dan Perguruan Tinggi</b></button></a>
-            </ul> 
-                <ul>Kordinator Dan Kelompok Jabatan Fungsional</ul> 
-            <ul>
-                <a href=""><button class="content"><b>Pusat Analis Perpustakaan Dan Pengembangan Budaya Baca</b></button></a>
-            </ul>
-                <ul>Kordinator Dan Kelompok Jabatan Fungsional</ul>
-            
-                 <a href=""><button class="content"><b>Pusat Data Dan Imformasi</b></button></a>
-                 <br><br>
-            <ul>
-                <ul>Sub Bagian Tata Usaha</ul>
-                <ul>Kordinator Dan Kelompok Jembatan Fungsional</ul>
-            </ul>
-            <br>
-            <br>
-            <br>
-                 <a href=""><button class="content"><b>Pusat Pembinaan Pustakawan</b></button></a>
-                 <br><br>
-            <ul>
-                <ul>Sub Bagian Tata Usaha</ul>
-                <ul>Kordinator Dan Kelompok Jembatan Fungsional</ul>
-            </ul>
-                <br><br><br>
-                 <a href=""><button class="content"><b>Pusat Pendidikan Dan Pelatihan </b></button></a>
-                 <ul>
-                     <ul>Sub Bagian Tata Usaha</ul>
-                     <ul>Kordinator Dan Kelompok Jembatan Fungsional</ul>
-                    </ul>
-                    <br><br><br><br>
-                    <a href=""><button class="content"><b>UPT PERPUSTAKAAN PROKLAMATOR BUNG KARNO</b></button></a>
-                    <br><br><br><br>
-                    <a href=""><button class="content"><b>UPT PERPUSTAKAAN PROKLAMATOR BUNG HATA</b></button></a>
-        </div>
-        </div>
-        <div class="footer">
-            Copy Right 2024 Kelompok 2 
-        </div>
+        <br /><br /><br />
+        <a href=""
+          ><button class="content">
+            <b>DEPUTI BIDANG PENGEMBANGAN BAHAN PUSTAKA DAN JASA IMFORMASI</b>
+          </button></a
+        >
+        <br />
+        <ul>
+          Sub Bagian Tu DePuti 1
+        </ul>
+        <ul>
+          <a href=""
+            ><button class="content">
+              <b>Direktorat Deposit Pengembangan Koleksi Perpustakaan</b>
+            </button></a
+          >
+        </ul>
+        <ul>
+          Kordinator Dan Kelompok Jabatan Fungsional
+        </ul>
+        <ul>
+          <a href=""
+            ><button class="content">
+              <b>Pusat Biliografi Dan Pengolahan Bahan Perpustakaan</b>
+            </button></a
+          >
+        </ul>
+        <ul>
+          Kordinator Dan Kelompok Jabatan Fungsional
+        </ul>
+        <ul>
+          <a href=""
+            ><button class="content">
+              <b>Pusat Preferensi Dan Ahli Media Bahan Perpustakaan</b>
+            </button></a
+          >
+        </ul>
+        <ul>
+          Kordinator Dan Kelompok Jabatan Fungsional
+        </ul>
+        <ul>
+          <a href=""
+            ><button class="content">
+              <b
+                >Pusat Jasa Ionfirmasi Perpustakaan Dan Pengelolaan Naskah
+                Nusantara
+              </b>
+            </button></a
+          >
+        </ul>
+        <ul>
+          Kordinator Dan Kelompok Jabatan Fungsional
+        </ul>
+        <br /><br /><br />
+        <a href=""
+          ><button class="content">
+            <b>DEPUDI BIDANG PENGEMBANGAN SUMBER DAYA PERPUSTAKAAN </b>
+          </button></a
+        >
+        <br />
+        <ul>
+          Sub Bagian Tu DePuti 1
+        </ul>
+        <ul>
+          <a href=""
+            ><button class="content">
+              <b>Direktorat Standardisasi dan Akredisasi</b>
+            </button></a
+          >
+        </ul>
+        <ul>
+          Kordinator Dan Kelompok Jabatan Fungsional
+        </ul>
+        <ul>
+          <a href=""
+            ><button class="content">
+              <b>Pusat Pengembangan Perpustakaan Umum Dan Khusus</b>
+            </button></a
+          >
+        </ul>
+        <ul>
+          Kordinator Dan Kelompok Jabatan Fungsional
+        </ul>
+        <ul>
+          <a href=""
+            ><button class="content">
+              <b
+                >Pusat Pengembangan Perpustakaan Sekolah/Madrasah dan Perguruan
+                Tinggi</b
+              >
+            </button></a
+          >
+        </ul>
+        <ul>
+          Kordinator Dan Kelompok Jabatan Fungsional
+        </ul>
+        <ul>
+          <a href=""
+            ><button class="content">
+              <b>Pusat Analis Perpustakaan Dan Pengembangan Budaya Baca</b>
+            </button></a
+          >
+        </ul>
+        <ul>
+          Kordinator Dan Kelompok Jabatan Fungsional
+        </ul>
 
-</body>
+        <a href=""
+          ><button class="content"><b>Pusat Data Dan Imformasi</b></button></a
+        >
+        <br /><br />
+        <ul>
+          <ul>
+            Sub Bagian Tata Usaha
+          </ul>
+          <ul>
+            Kordinator Dan Kelompok Jembatan Fungsional
+          </ul>
+        </ul>
+        <br />
+        <br />
+        <br />
+        <a href=""
+          ><button class="content"><b>Pusat Pembinaan Pustakawan</b></button></a
+        >
+        <br /><br />
+        <ul>
+          <ul>
+            Sub Bagian Tata Usaha
+          </ul>
+          <ul>
+            Kordinator Dan Kelompok Jembatan Fungsional
+          </ul>
+        </ul>
+        <br /><br /><br />
+        <a href=""
+          ><button class="content">
+            <b>Pusat Pendidikan Dan Pelatihan </b>
+          </button></a
+        >
+        <ul>
+          <ul>
+            Sub Bagian Tata Usaha
+          </ul>
+          <ul>
+            Kordinator Dan Kelompok Jembatan Fungsional
+          </ul>
+        </ul>
+        <br /><br /><br /><br />
+        <a href=""
+          ><button class="content">
+            <b>UPT PERPUSTAKAAN PROKLAMATOR BUNG KARNO</b>
+          </button></a
+        >
+        <br /><br /><br /><br />
+        <a href=""
+          ><button class="content">
+            <b>UPT PERPUSTAKAAN PROKLAMATOR BUNG HATA</b>
+          </button></a
+        >
+      </div>
+    </div>
+    <div class="footer">Copy Right 2024 Kelompok 2</div>
+  </body>
 </html>
